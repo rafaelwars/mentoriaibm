@@ -1,0 +1,53 @@
+customer_id = 
+segmentation_month = 
+ifood_status_last_month = 
+ifood_status = 
+orders_last_91d = 
+qtt_orders_last_year = 
+qtt_valid_orders = 
+last_valid_order_date = 
+qtt_invalid_orders = 
+marlin_tag = 
+recency_months = 
+last_nps = 
+customer_lifetime_days = 
+customer_lifetime_months = 
+was_mub_last_month = 
+buyer_last_91d = 
+recency_days = 
+freq_last_91d = 
+benefits_sensitivity = 
+preferred_shift_bucket = 
+merchant_variety = 
+cod_last_nps = 
+cod_ifood_status_last_month = 
+cod_ifood_status = 
+cod_marlin_tag = 
+
+
+cliente_data.customer_id
+cliente_data.segmentation_month 
+cliente_data.ifood_status_last_month
+cliente_data.ifood_status
+cliente_data.orders_last_91d 
+cliente_data.qtt_orders_last_year
+cliente_data.qtt_valid_orders
+cliente_data.last_valid_order_date
+cliente_data.qtt_invalid_orders
+cliente_data.marlin_tag
+cliente_data.recency_months
+cliente_data.last_nps
+cliente_data.customer_lifetime_days
+cliente_data.customer_lifetime_months
+cliente_data.was_mub_last_month 
+cliente_data.buyer_last_91d 
+cliente_data.recency_days
+cliente_data.freq_last_91d
+cliente_data.benefits_sensitivity
+cliente_data.preferred_shift_bucket
+cliente_data.merchant_variety
+cliente_data.cod_last_nps
+cliente_data.cod_ifood_status_last_month
+cliente_data.cod_ifood_status
+cliente_data.cod_marlin_tag
+
