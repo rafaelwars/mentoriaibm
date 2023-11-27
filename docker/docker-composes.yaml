@@ -1,0 +1,26 @@
+version: '3.7'
+
+networks:
+  net:
+    driver: bridge
+
+services:
+    postgres:
+        image: postgres:9.6
+        hostname: postgres
+        container_name: postgres
+        environment:
+            - POSTGRES_USER=projeto
+            - POSTGRES_PASSWORD=projeto
+            - POSTGRES_DB=airflow
+            - PGDATA=/var/lib/postgresql/data
+        healthcheck:
+            test: ["CMD", "pg_isready", "-U", "airflow"]
+        networks:
+            - net 
+        ports:
+            - 5432:5432
+        volumes:
+            - ./Airflow/postgres:/var/lib/postgresql/data
+
+ 
